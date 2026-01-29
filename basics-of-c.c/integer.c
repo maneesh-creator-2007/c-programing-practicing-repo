@@ -4,5 +4,6 @@ int main(){
     printf("Enter an integer: ");
     scanf("%i", &a);
     printf("You entered: %d\n", a);
+    printf("%d",sizeof(int));
     return 0; 
 }
