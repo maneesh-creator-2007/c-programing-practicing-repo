@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main(){
-    int i,n;
-    printf("enter the value of n:");
-    scanf("%d",&n);
-    printf("enter the values without 7 and 9:\n");
-    for(i=1;i<n;i++){
-        if(i%2==1){//if i=9 or i=7 the values not printed.
-            continue;//i%2==0 means odd numbers.
-        }//i%2==0 means even numbers.
-        printf("%d ",i);
+   int i,n;
+   printf("enter the values of n:");
+   scanf("%d",&n);
+  
+   for(i=1;i<=n;i++){//it prints only odd numbers
+    if(i%2==0){//if i%2==1 it prints only even numbers
+       continue;//if the condition is i==7 and i==9 it skips those two numbers
     }
-    return 0;
+    printf("%d ",i);
+   }
+   return 0;
 }
