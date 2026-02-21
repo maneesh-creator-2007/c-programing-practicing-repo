@@ -7,5 +7,5 @@ int main(){
         result=n*i;
         printf("%d * %d = %d\n",n,i,result);
     }
-    return 0;
+    return 0; 
 }
