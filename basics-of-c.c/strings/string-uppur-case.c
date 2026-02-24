@@ -5,6 +5,6 @@ int main(){
     printf("enter the  value of string:");
     fgets(s, sizeof(s), stdin);
     printf("string in normal is %s\n",s);
-    printf("string in upper case is %s\n",strupr(s));
+    printf("string in upper case is %s\n",strupr(s));// add strlwr for lower case insterd of strupr
     return 0;
 }
