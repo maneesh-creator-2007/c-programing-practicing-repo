@@ -6,5 +6,4 @@ int main(){
     strcpy(str2,str);
     puts(str2);
     return 0;
-
 }
