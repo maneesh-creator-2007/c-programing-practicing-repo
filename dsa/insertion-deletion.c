@@ -33,6 +33,7 @@ void create_one_node(){
     new=(struct node*)malloc(sizeof(struct node));
     printf("enter the data :");
     scanf("%d",&val);
+    new->data=val;
     new->next=NULL;
     return ;
 }
